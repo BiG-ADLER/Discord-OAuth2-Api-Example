@@ -5,7 +5,7 @@
   "main": "Src/app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Src/app.js"
   },
   "author": "",
   "license": "ISC",
