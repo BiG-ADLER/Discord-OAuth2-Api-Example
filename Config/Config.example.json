@@ -1,0 +1,8 @@
+{
+    "ClientID": "Your Application Client ID",
+    "ClientSecret": "Your Application Client Secret",
+    "Port": 3000,
+    "Token": "Your Application Bot Token",
+    "ApiVersion": 1,
+    "Url": "https://localhost"
+}

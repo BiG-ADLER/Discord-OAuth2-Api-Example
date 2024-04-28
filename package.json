@@ -1,0 +1,21 @@
+{
+  "name": "discord-oauth2",
+  "version": "1.0.0",
+  "description": "Discord OAuth2 Authentication Api Example",
+  "main": "Src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "es-dirmodule": "^1.0.0",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  }
+}
