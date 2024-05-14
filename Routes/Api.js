@@ -18,7 +18,7 @@ Router.get(`/auth/discord/redirect`, async (req, res) => {
             client_secret: Config.ClientSecret,
             grant_type: 'authorization_code',
             code: code.toString(),
-            redirect_uri: `http://localhost:3000/api/v${Config.ApiVersion}/auth/discord/redirect`
+            redirect_uri: `${Config.Url}:${Config.Port}/api/v${Config.ApiVersion}/auth/discord/redirect`
         })
         const Output = await axios.post('https://discord.com/api/v10/oauth2/token',
             FormData, {

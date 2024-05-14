@@ -1,9 +1,4 @@
-
 # Discord OAuth2 Example Api
-
-
-
-
 
 ## How to Use
 
